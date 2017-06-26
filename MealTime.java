@@ -7,5 +7,9 @@ public class MealTime {
     System.out.println("What did you eat for breakfast?");
     String yourBreakfast = myConsole.readLine();
     System.out.println("You had " + yourBreakfast + " for breakfast.");
+
+    System.out.println("What did you eat for lunch?");
+    String yourLunch = myConsole.readLine();
+    System.out.println("You had " + yourLunch + " for lunch.");
   }
 }
