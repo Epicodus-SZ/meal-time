@@ -11,5 +11,9 @@ public class MealTime {
     System.out.println("What did you eat for lunch?");
     String yourLunch = myConsole.readLine();
     System.out.println("You had " + yourLunch + " for lunch.");
+
+    System.out.println("What did you have for dinner");
+    String yourDinner = myConsole.readLine();
+    System.out.println("You had " + yourDinner + " for dinner.");
   }
 }
